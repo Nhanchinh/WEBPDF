@@ -1,0 +1,12 @@
+{% extends "app/base.html" %}
+    {% block content %}
+        <h2>Nội dung </h2>
+        {% for item in dulieu_list %}
+
+            <p>{{ item.id }}
+            {{ item.don_vi_soan_thao }}
+            {{ item.so_ky_hieu }}
+            {{ item.nguoi_ky }}
+            {{ item.ngay_ban_hanh }}</p>
+        {% endfor %}
+    {% endblock %}
