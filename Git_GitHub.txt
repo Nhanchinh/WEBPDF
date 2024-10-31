@@ -5,7 +5,7 @@ git reset # bỏ thư mục chuẩn bị lưu
 git commit -m 'ghi chú' # lưu
 git log # xem lịch sử
 git checkout id_commit(master) # quay lại nhánh lúc commit
-git branch 
+git branch # xem nhánh đang ở
 git checkout -b namebranch # tạo nhánh mới
 git merge namebranch # nhập nhánh namebranch vào nhánh đang đứng
 git branch -d namebranch # xoá branch

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'add_data',
+    'pdfdata',
 ]
 
 MIDDLEWARE = [
@@ -126,6 +127,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Media files (for uploaded files)
+MEDIA_URL = '/media/'  # URL để truy cập các file trong MEDIA_ROOT
+MEDIA_ROOT = BASE_DIR / 'media'  # Thư mục lưu trữ các file tải lên trong hệ thống file
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

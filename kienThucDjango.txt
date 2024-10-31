@@ -22,3 +22,7 @@ Trong Django, các cặp dấu {% %}, {{ }}, và {# #} là các thành phần ch
 {% endblock %}
 
 Dùng để hiển thị giá trị của các biến trong template. Bên trong {{ }}, bạn có thể truy cập vào biến truyền từ view, như các thuộc tính của một đối tượng, các biến đơn lẻ hoặc các hàm trả về giá trị.
+
+views
+views đóng vai trò là "cầu nối" giữa dữ liệu và giao diện hiển thị của ứng dụng
+    hàm render() giúp hiển thị template (trang web) cho người dùng kèm theo dữ liệu cần thiết từ server

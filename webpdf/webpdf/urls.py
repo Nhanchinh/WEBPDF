@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('app.urls')),
     path('add_data/', include('add_data.urls')),
+    path('pdfdata/', include('pdfdata.urls')),
 ]
